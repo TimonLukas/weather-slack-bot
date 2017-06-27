@@ -10,8 +10,6 @@ module.exports = class Weather {
 
     this.humidity = data.main.humidity;
     this.clouds = data.clouds.all;
-
-    this.city = data.name;
   }
 
   areConditionsMatching (cases, value) {
@@ -45,7 +43,7 @@ module.exports = class Weather {
       return this.areConditionsMatching(temperatureCase.conditions, temperature);
     });
 
-    return result[0].attributes[Math.round(Math.random() * result[0].attributes.length)];
+    return result[0].attributes[Math.floor(Math.random() * result[0].attributes.length)];
   }
 
   render () {

@@ -1,6 +1,6 @@
 {
   "name": "weather-slack-bot",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A slack bot which posts information about the current weather to a slack channel",
   "main": "app.js",
   "repository": "https://github.com/TimonLukas/weather-slack-bot.git",
