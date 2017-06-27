@@ -1,0 +1,105 @@
+{
+  "temperature": [
+    {
+      "conditions": [
+        {
+          "condition": "<",
+          "value": 0
+        }
+      ],
+      "attributes": [
+        "schrecklich kalte",
+        "Arsch aufs Grundeis legende",
+        "selbstmörderische",
+        "fröstelnde",
+        "angenehme",
+        "so kalte wie das Herz meiner Ex",
+        "arktische",
+        "antarktische",
+        "beunruhigende"
+      ]
+    },
+    {
+      "conditions": [
+        {
+          "condition": ">=",
+          "value": 0
+        },
+        {
+          "condition": "<",
+          "value": 10
+        }
+      ],
+      "attributes": [
+        "kühle",
+        "kalte",
+        "angenehme",
+        "langsam warm werdende",
+        "langsam kalt werdende",
+        "unglaubliche",
+        "immerhin-wärmer-als-es-sein-könnte",
+        "T-Shirt-passende"
+      ]
+    },
+    {
+      "conditions": [
+        {
+          "condition": ">=",
+          "value": 10
+        },
+        {
+          "condition": "<",
+          "value": 20
+        }
+      ],
+      "attributes": [
+        "angenehme",
+        "schon-fast-zu-warme",
+        "laue",
+        "schmuddelige",
+        "sommerkalte",
+        "winterheiße",
+        "frühlingshafte",
+        "herbstliche"
+      ]
+    },
+    {
+      "conditions": [
+        {
+          "condition": ">=",
+          "value": 20
+        },
+        {
+          "condition": "<",
+          "value": 25
+        }
+      ],
+      "attributes": [
+        "schon-fast-zu-warme",
+        "heiße",
+        "unangenehme",
+        "angenehme",
+        "hitzige",
+        "sommerliche",
+        "bitte-nicht-mehr",
+        "aushaltbare"
+      ]
+    },
+    {
+      "conditions": [
+        {
+          "condition": ">=",
+          "value": 25
+        }
+      ],
+      "attributes": [
+        "viel zu heiße",
+        "unangenehme",
+        "das Fleisch von den Knochen brennende",
+        "wehtuende",
+        "sich wie die Oberfläche der Sonne anfühlende",
+        "für Frauen angenehme"
+      ]
+    }
+  ]
+}
